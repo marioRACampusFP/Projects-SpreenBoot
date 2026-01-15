@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de la Compra</title>
+    <style>
+        body { font-family: Arial; margin: 40px; background: #f4f4f4; }
+        .catalogo, .carrito { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; }
+        a { color: #0066cc; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+<div class="catalogo">
+    <h1>CATÁLOGO DE PRODUCTOS</h1>
+    <div th:each="p : ${productos}">
+        <strong th:text="${p.nombre}"></strong>
+        - <span th:text="${p.precio} + ' €'"></span>
+        → <a th:href="@{'/add?id=' + ${p.idproducto}}">Añadir al carrito</a>
+        <br><br>
+    </div>
+</div>
+
+<div class="carrito">
+    <h2>Mi carrito (esta sesión)</h2>
+    <p th:each="item : ${carritoSesion}" th:text="${item}"></p>
+    <p th:if="${#lists.isEmpty(carritoSesion)}"><em>Tu carrito está vacío</em></p>
+</div>
+
+<div class="carrito" style="background:#fff3cd;">
+    <h2>Carrito global (todo lo que han añadido todos los usuarios)</h2>
+    <p th:each="item : ${carritoGlobal}" th:text="${item}"></p>
+    <p th:if="${#lists.isEmpty(carritoGlobal)}"><em>Nadie ha comprado todavía</em></p>
+</div>
+
+</body>
+</html>
