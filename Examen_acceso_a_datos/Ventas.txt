@@ -1,0 +1,22 @@
+                   LISTADO DE VENTAS                      
+                                                          
+ID: 1 | Producto: Camiseta roja      | Cantidad:  5 | Precio:  12,50 € | Importe:   62,50 €
+ID: 2 | Producto: Zapatillas negras  | Cantidad:  1 | Precio:  45,00 € | Importe:   45,00 €
+ID: 3 | Producto: Gorra blanca       | Cantidad:  6 | Precio:  10,00 € | Importe:   60,00 €
+ID: 4 | Producto: Pantalón gris      | Cantidad:  2 | Precio:  30,00 € | Importe:   60,00 €
+ID: 5 | Producto: Sudadera azul      | Cantidad:  3 | Precio:  25,00 € | Importe:   75,00 €
+ID: 6 | Producto: Zapatillas negras  | Cantidad:  3 | Precio:  45,00 € | Importe:  135,00 €
+ID: 7 | Producto: Camiseta roja      | Cantidad:  4 | Precio:  12,50 € | Importe:   50,00 €
+ID: 8 | Producto: Pantalón gris      | Cantidad:  1 | Precio:  30,00 € | Importe:   30,00 €
+ID: 9 | Producto: Zapatillas negras  | Cantidad:  2 | Precio:  45,00 € | Importe:   90,00 €
+ID: 10 | Producto: Camiseta roja      | Cantidad:  2 | Precio:  12,50 € | Importe:   25,00 €
+ID: 11 | Producto: Gorra blanca       | Cantidad:  4 | Precio:  10,00 € | Importe:   40,00 €
+ID: 12 | Producto: Pantalón gris      | Cantidad:  3 | Precio:  30,00 € | Importe:   90,00 €
+ID: 13 | Producto: Sudadera azul      | Cantidad:  1 | Precio:  25,00 € | Importe:   25,00 €
+ID: 14 | Producto: Zapatillas negras  | Cantidad:  2 | Precio:  45,00 € | Importe:   90,00 €
+ID: 15 | Producto: Calcetines grises  | Cantidad: 10 | Precio:   5,99 € | Importe:   59,90 €
+ID: 16 | Producto: Camiseta baloncesto | Cantidad:  2 | Precio:  50,99 € | Importe:  101,98 €
+ID: 17 | Producto: Zapatillas baloncesto | Cantidad:  2 | Precio:  60,99 € | Importe:  121,98 €
+ID: 100 | Producto: Calcetines grises  | Cantidad: 10 | Precio:   5,99 € | Importe:   59,90 €
+ID: 150 | Producto: Calcetines grises  | Cantidad: 10 | Precio:   5,99 € | Importe:   59,90 €
+Recaudacion total:                           1281,16 €
