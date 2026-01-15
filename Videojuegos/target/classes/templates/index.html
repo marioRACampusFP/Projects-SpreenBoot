@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Inicio - Videojuegos</title>
+</head>
+<body>
+<h1>Videojuegos Populares</h1>
+<ul>
+    <li th:each="v : ${videojuegos}" th:text="${v}"></li>
+</ul>
+</body>
+</html>

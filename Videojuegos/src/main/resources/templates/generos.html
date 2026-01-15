@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Géneros</title>
+</head>
+<body>
+<h1>Géneros de Videojuegos</h1>
+<ul>
+    <li th:each="g : ${generos}" th:text="${g}"></li>
+</ul>
+</body>
+</html>

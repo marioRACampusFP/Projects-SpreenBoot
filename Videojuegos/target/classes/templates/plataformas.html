@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Plataformas</title>
+</head>
+<body>
+<h1>Plataformas Disponibles</h1>
+<ul>
+    <li th:each="p : ${plataformas}" th:text="${p}"></li>
+</ul>
+</body>
+</html>
